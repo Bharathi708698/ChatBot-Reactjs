@@ -8,7 +8,7 @@ import { MainContainer, ChatContainer, MessageList, Message, MessageInput, Typin
 const systemMessage = { //  Explain things like you're talking to a software professional with 5 years of experience.
   "role": "system", "content": "Explain things like you're talking to a software professional."
 }
-console.log(`${process.env.REACT_APP_API_KEY}`)
+
 function App() {
   const [messages, setMessages] = useState([
     {
